@@ -2,7 +2,6 @@ package org.example.applicitacionesserver.Controllers;
 
 import org.example.applicitacionesserver.Models.ClientsDTO;
 import org.example.applicitacionesserver.Services.ClientsServices;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

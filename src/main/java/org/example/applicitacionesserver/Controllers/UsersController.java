@@ -1,9 +1,6 @@
 package org.example.applicitacionesserver.Controllers;
 
-import org.example.applicitacionesserver.Models.ClientsDTO;
 import org.example.applicitacionesserver.Models.UsersDTO;
-import org.example.applicitacionesserver.Repositories.UsersRepository;
-import org.example.applicitacionesserver.Services.ClientsServices;
 import org.example.applicitacionesserver.Services.UsersServices;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

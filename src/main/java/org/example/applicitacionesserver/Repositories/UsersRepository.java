@@ -1,6 +1,5 @@
 package org.example.applicitacionesserver.Repositories;
 
-import org.example.applicitacionesserver.Models.ClientsDTO;
 import org.example.applicitacionesserver.Models.UsersDTO;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

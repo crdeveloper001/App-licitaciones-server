@@ -1,6 +1,5 @@
 package org.example.applicitacionesserver.Services;
 
-import org.apache.catalina.User;
 import org.example.applicitacionesserver.Interfaces.IUsers;
 import org.example.applicitacionesserver.Models.UsersDTO;
 import org.example.applicitacionesserver.Repositories.UsersRepository;

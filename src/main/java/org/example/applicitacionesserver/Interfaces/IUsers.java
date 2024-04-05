@@ -1,6 +1,5 @@
 package org.example.applicitacionesserver.Interfaces;
 
-import org.example.applicitacionesserver.Models.TenderDTO;
 import org.example.applicitacionesserver.Models.UsersDTO;
 
 import java.util.List;

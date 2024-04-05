@@ -1,7 +1,6 @@
 package org.example.applicitacionesserver.Controllers;
 
 import org.example.applicitacionesserver.Models.TenderDTO;
-import org.example.applicitacionesserver.Repositories.TenderRepository;
 import org.example.applicitacionesserver.Services.TenderServices;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
