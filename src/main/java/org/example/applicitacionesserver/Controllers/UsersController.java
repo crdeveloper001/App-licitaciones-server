@@ -42,7 +42,7 @@ public class UsersController {
         }
 
     }
-    @DeleteMapping("DeleteUser")
+    @DeleteMapping("DeleteUser/{id}")
     public ResponseEntity<?> DeleteClient(@PathVariable String id){
         if(id != null){
             usersServices.DeleteUserSelected(id);

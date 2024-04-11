@@ -11,6 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 public class PayloadAuthorizationDTO {
     
+    public PayloadAuthorizationDTO() {
+        
+    }
     private String Auth_Key;
     private UsersDTO payload;
 }

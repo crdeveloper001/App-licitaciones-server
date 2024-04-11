@@ -25,5 +25,5 @@ public class TenderDTO {
     private Date tender_begin;
     private Date tender_end;
     private Integer tender_budget;
-    private boolean tender_state;
+    private String tender_state;
 }

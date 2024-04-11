@@ -41,7 +41,7 @@ public class TenderController {
             return new ResponseEntity<String>("ERROR ON UPDATED TENDER",HttpStatus.BAD_REQUEST);
         }
     }
-    @DeleteMapping("/DeleteTender")
+    @DeleteMapping("/DeleteTender/{id}")
     public ResponseEntity<?> DeleteTender(@PathVariable String id){
         if(id != null){
             tenderServices.DeleteTenderSelected(id);

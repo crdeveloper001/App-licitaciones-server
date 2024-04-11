@@ -20,6 +20,6 @@ public class ClientsDTO {
     private String client_email;
     private String client_phone;
     private String client_website;
-    private boolean client_state;
+    private String client_state;
 
 }

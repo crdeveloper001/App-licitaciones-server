@@ -29,7 +29,7 @@ public class AuthorizationController {
 
     @PostMapping("/LoginCredential")
     public ResponseEntity<?> postLoginCredential(@RequestBody AuthorizationDTO credentials) throws Exception {
-
+        
         try {
             List<UsersDTO> currentUsers = service.findAll();
             PayloadAuthorizationDTO payload = new PayloadAuthorizationDTO();
